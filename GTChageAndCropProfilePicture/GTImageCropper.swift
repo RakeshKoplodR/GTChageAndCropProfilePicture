@@ -15,7 +15,7 @@ public struct SMULineSegment {
     var end:CGPoint;
 }
 
-class GTImageCropper {
+public class GTImageCropper {
     
     static let sharedInstance = GTImageCropper()
 

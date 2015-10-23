@@ -9,12 +9,12 @@
 import Foundation
 import UIKit
 
-class GTTouchView: UIView {
+public class GTTouchView: UIView {
     
     internal var receiver:UIView?
     
     
-    override func hitTest(point: CGPoint, withEvent event: UIEvent?) -> UIView? {
+    override public func hitTest(point: CGPoint, withEvent event: UIEvent?) -> UIView? {
         if pointInside(point, withEvent: event){
             return receiver
         }

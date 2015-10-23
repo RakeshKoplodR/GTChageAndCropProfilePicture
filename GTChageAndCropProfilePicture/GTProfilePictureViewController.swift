@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GTProfilePictureViewController: NSObject,UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+public class GTProfilePictureViewController: NSObject,UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
     @IBOutlet weak var addPhotoButton: UIButton!
     //let  kPhotoDiameter: CGFloat = 130.0
@@ -81,7 +81,7 @@ class GTProfilePictureViewController: NSObject,UINavigationControllerDelegate, U
         self.calledViewController.presentViewController(pictureSelectionOptionsMenu, animated: true, completion: nil)
     }
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
+    public func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
         self.calledViewController.dismissViewControllerAnimated(false, completion: nil)
         let photo:UIImage = image
         let imageVC:GTImageCropViewController = GTImageCropViewController()
