@@ -19,6 +19,10 @@ public class GTProfilePictureViewController: NSObject,UINavigationControllerDele
     var delegate:GTProfilePictureDelegate!
     var imageCropMode:SMUImageCropMode = SMUImageCropMode.Circle
     
+    public func setDelegate(delegate:GTProfilePictureDelegate!)
+    {
+        self.delegate = delegate
+    }
     
     class public func sharedInstance() -> GTProfilePictureViewController {
         struct Static {

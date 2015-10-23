@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-protocol GTProfilePictureDelegate
+public protocol GTProfilePictureDelegate
 {
     func changeProfileImageCallBack(image: UIImage)
 }
