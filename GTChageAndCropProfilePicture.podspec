@@ -91,7 +91,7 @@ This framework will allow you to change profile picture. you can change profile 
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "GTChageAndCropProfilePicture/GTChageAndCropProfilePicture/**/*.{swift}"
+  s.source_files  = "GTChageAndCropProfilePicture/**/*.{swift}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -116,7 +116,7 @@ This framework will allow you to change profile picture. you can change profile 
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-
+s.framework = "UIKit"
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
