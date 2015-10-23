@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		31067DF11BDA204E00B30EF8 /* GTChageAndCropProfilePicture.h in Headers */ = {isa = PBXBuildFile; fileRef = 31067DF01BDA204E00B30EF8 /* GTChageAndCropProfilePicture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31432B381BDA36F4004B105F /* GTProfilePictureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432B371BDA36F4004B105F /* GTProfilePictureDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		31432B3F1BDA3707004B105F /* GTImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432B391BDA3707004B105F /* GTImageCropper.swift */; settings = {ASSET_TAGS = (); }; };
-		31432B401BDA3707004B105F /* GTImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432B3A1BDA3707004B105F /* GTImageCropViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		31432B411BDA3707004B105F /* GTImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432B3B1BDA3707004B105F /* GTImageExtension.swift */; settings = {ASSET_TAGS = (); }; };
-		31432B421BDA3707004B105F /* GTProfilePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432B3C1BDA3707004B105F /* GTProfilePictureViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		31432B431BDA3707004B105F /* GTTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432B3D1BDA3707004B105F /* GTTouchView.swift */; settings = {ASSET_TAGS = (); }; };
-		31432B441BDA3707004B105F /* GTUImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31432B3E1BDA3707004B105F /* GTUImageScrollView.swift */; settings = {ASSET_TAGS = (); }; };
+		3171F6EE1BDA561C0049E42B /* GTImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171F6E71BDA561C0049E42B /* GTImageCropper.swift */; settings = {ASSET_TAGS = (); }; };
+		3171F6EF1BDA561C0049E42B /* GTImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171F6E81BDA561C0049E42B /* GTImageCropViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3171F6F01BDA561C0049E42B /* GTImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171F6E91BDA561C0049E42B /* GTImageExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		3171F6F11BDA561C0049E42B /* GTProfilePictureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171F6EA1BDA561C0049E42B /* GTProfilePictureDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		3171F6F21BDA561C0049E42B /* GTProfilePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171F6EB1BDA561C0049E42B /* GTProfilePictureViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3171F6F31BDA561C0049E42B /* GTTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171F6EC1BDA561C0049E42B /* GTTouchView.swift */; settings = {ASSET_TAGS = (); }; };
+		3171F6F41BDA561C0049E42B /* GTUImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171F6ED1BDA561C0049E42B /* GTUImageScrollView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31067DED1BDA204E00B30EF8 /* GTChageAndCropProfilePicture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTChageAndCropProfilePicture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31067DF01BDA204E00B30EF8 /* GTChageAndCropProfilePicture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTChageAndCropProfilePicture.h; sourceTree = "<group>"; };
 		31067DF21BDA204E00B30EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31432B371BDA36F4004B105F /* GTProfilePictureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTProfilePictureDelegate.swift; path = Protocols/GTProfilePictureDelegate.swift; sourceTree = "<group>"; };
-		31432B391BDA3707004B105F /* GTImageCropper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTImageCropper.swift; path = Classes/GTImageCropper.swift; sourceTree = "<group>"; };
-		31432B3A1BDA3707004B105F /* GTImageCropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTImageCropViewController.swift; path = Classes/GTImageCropViewController.swift; sourceTree = "<group>"; };
-		31432B3B1BDA3707004B105F /* GTImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTImageExtension.swift; path = Classes/GTImageExtension.swift; sourceTree = "<group>"; };
-		31432B3C1BDA3707004B105F /* GTProfilePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTProfilePictureViewController.swift; path = Classes/GTProfilePictureViewController.swift; sourceTree = "<group>"; };
-		31432B3D1BDA3707004B105F /* GTTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTTouchView.swift; path = Classes/GTTouchView.swift; sourceTree = "<group>"; };
-		31432B3E1BDA3707004B105F /* GTUImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTUImageScrollView.swift; path = Classes/GTUImageScrollView.swift; sourceTree = "<group>"; };
+		3171F6E71BDA561C0049E42B /* GTImageCropper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTImageCropper.swift; sourceTree = "<group>"; };
+		3171F6E81BDA561C0049E42B /* GTImageCropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTImageCropViewController.swift; sourceTree = "<group>"; };
+		3171F6E91BDA561C0049E42B /* GTImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTImageExtension.swift; sourceTree = "<group>"; };
+		3171F6EA1BDA561C0049E42B /* GTProfilePictureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTProfilePictureDelegate.swift; sourceTree = "<group>"; };
+		3171F6EB1BDA561C0049E42B /* GTProfilePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTProfilePictureViewController.swift; sourceTree = "<group>"; };
+		3171F6EC1BDA561C0049E42B /* GTTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTTouchView.swift; sourceTree = "<group>"; };
+		3171F6ED1BDA561C0049E42B /* GTUImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTUImageScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,33 +60,17 @@
 		31067DEF1BDA204E00B30EF8 /* GTChageAndCropProfilePicture */ = {
 			isa = PBXGroup;
 			children = (
-				31C6C0DD1BDA2D3F00B4E126 /* Protocols */,
-				31C6C0DC1BDA2D3400B4E126 /* Classes */,
+				3171F6E71BDA561C0049E42B /* GTImageCropper.swift */,
+				3171F6E81BDA561C0049E42B /* GTImageCropViewController.swift */,
+				3171F6E91BDA561C0049E42B /* GTImageExtension.swift */,
+				3171F6EA1BDA561C0049E42B /* GTProfilePictureDelegate.swift */,
+				3171F6EB1BDA561C0049E42B /* GTProfilePictureViewController.swift */,
+				3171F6EC1BDA561C0049E42B /* GTTouchView.swift */,
+				3171F6ED1BDA561C0049E42B /* GTUImageScrollView.swift */,
 				31067DF01BDA204E00B30EF8 /* GTChageAndCropProfilePicture.h */,
 				31067DF21BDA204E00B30EF8 /* Info.plist */,
 			);
 			path = GTChageAndCropProfilePicture;
-			sourceTree = "<group>";
-		};
-		31C6C0DC1BDA2D3400B4E126 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				31432B391BDA3707004B105F /* GTImageCropper.swift */,
-				31432B3A1BDA3707004B105F /* GTImageCropViewController.swift */,
-				31432B3B1BDA3707004B105F /* GTImageExtension.swift */,
-				31432B3C1BDA3707004B105F /* GTProfilePictureViewController.swift */,
-				31432B3D1BDA3707004B105F /* GTTouchView.swift */,
-				31432B3E1BDA3707004B105F /* GTUImageScrollView.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		31C6C0DD1BDA2D3F00B4E126 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				31432B371BDA36F4004B105F /* GTProfilePictureDelegate.swift */,
-			);
-			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,13 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31432B441BDA3707004B105F /* GTUImageScrollView.swift in Sources */,
-				31432B411BDA3707004B105F /* GTImageExtension.swift in Sources */,
-				31432B3F1BDA3707004B105F /* GTImageCropper.swift in Sources */,
-				31432B401BDA3707004B105F /* GTImageCropViewController.swift in Sources */,
-				31432B431BDA3707004B105F /* GTTouchView.swift in Sources */,
-				31432B381BDA36F4004B105F /* GTProfilePictureDelegate.swift in Sources */,
-				31432B421BDA3707004B105F /* GTProfilePictureViewController.swift in Sources */,
+				3171F6F41BDA561C0049E42B /* GTUImageScrollView.swift in Sources */,
+				3171F6F11BDA561C0049E42B /* GTProfilePictureDelegate.swift in Sources */,
+				3171F6EE1BDA561C0049E42B /* GTImageCropper.swift in Sources */,
+				3171F6EF1BDA561C0049E42B /* GTImageCropViewController.swift in Sources */,
+				3171F6F31BDA561C0049E42B /* GTTouchView.swift in Sources */,
+				3171F6F01BDA561C0049E42B /* GTImageExtension.swift in Sources */,
+				3171F6F21BDA561C0049E42B /* GTProfilePictureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
