@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "GTChageAndCropProfilePicture"
   s.version      = "0.0.1"
-  s.summary      = "A short description of GTChageAndCropProfilePicture."
+  s.summary      = "This framework will allow you to change profile picture using camera roll or you can pic picture from camera roll."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-This framework will allow you to change profile picture using camera roll or you can pic picture from camera roll.
+This framework will allow you to change profile picture. you can change profile picture using camera roll or you can pic picture from camera roll.
                    DESC
 
   s.homepage     = "https://github.com/RakeshKoplodR/GTChageAndCropProfilePicture.git"
@@ -64,8 +64,8 @@ This framework will allow you to change profile picture using camera roll or you
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios
+   s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -91,8 +91,8 @@ This framework will allow you to change profile picture using camera roll or you
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{swift}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "GTChageAndCropProfilePicture/Classes/**/*.{swift}","GTChageAndCropProfilePicture/Protocols/**/*.{swift}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -130,7 +130,7 @@ This framework will allow you to change profile picture using camera roll or you
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+    s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
