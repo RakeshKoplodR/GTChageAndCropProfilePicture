@@ -584,13 +584,13 @@ public class GTImageCropViewController: UIViewController,UIGestureRecognizerDele
         cropRectForImage = CGRectApplyAffineTransform(cropRect, CGAffineTransformMakeScale(imageScale, imageScale));
         
         let croppedCGImage:CGImageRef = CGImageCreateWithImageInRect(image.CGImage, cropRect)!;
-        var croppedImage:UIImage = UIImage(CGImage: croppedCGImage, scale: imageScale, orientation: imageOrientation)
+        var croppedImage:UIImage? = UIImage(CGImage: croppedCGImage, scale: imageScale, orientation: imageOrientation)
        
-        croppedImage = croppedImage.fixOrientation();
-        imageOrientation = croppedImage.imageOrientation;
+        croppedImage = croppedImage!.fixOrientation();
+        imageOrientation = croppedImage!.imageOrientation;
         
         if ((cropMode == SMUImageCropMode.Square || !applyMaskToCroppedImage) && rotationAngle == 0.0) {
-            return croppedImage;
+            return croppedImage!
         } else {
             let maskSize:CGSize = CGRectIntegral(maskPathForImage.bounds).size;
             let contextSize:CGSize = CGSizeMake(ceil(maskSize.width / zoomScale),
@@ -608,20 +608,20 @@ public class GTImageCropViewController: UIViewController,UIGestureRecognizerDele
             }
        
             if (rotationAngle != 0) {
-                croppedImage = croppedImage.rotateByAngle(rotationAngle)
+                croppedImage = croppedImage!.rotateByAngle(rotationAngle)
             }
             
-            let point:CGPoint = CGPointMake(round((contextSize.width - croppedImage.size.width) * 0.5),
-                round((contextSize.height - croppedImage.size.height) * 0.5))
-            croppedImage.drawAtPoint(point)
+            let point:CGPoint = CGPointMake(round((contextSize.width - croppedImage!.size.width) * 0.5),
+                round((contextSize.height - croppedImage!.size.height) * 0.5))
+            croppedImage!.drawAtPoint(point)
             
             croppedImage = UIGraphicsGetImageFromCurrentImageContext();
         
             UIGraphicsEndImageContext();
             
-            croppedImage = UIImage(CGImage: croppedImage.CGImage!, scale: imageScale, orientation: imageOrientation)
+            croppedImage = UIImage(CGImage: croppedImage!.CGImage!, scale: imageScale, orientation: imageOrientation)
             
-            return croppedImage;
+            return croppedImage!;
         }
 
         
