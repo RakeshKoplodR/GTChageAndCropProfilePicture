@@ -32,7 +32,7 @@ public class GTProfilePictureViewController: NSObject,UINavigationControllerDele
         return Static.instance!
     }
     
-    func changeProfilePicture(viewController:UIViewController)
+    public func changeProfilePicture(viewController:UIViewController)
     {
         self.calledViewController = viewController
         
