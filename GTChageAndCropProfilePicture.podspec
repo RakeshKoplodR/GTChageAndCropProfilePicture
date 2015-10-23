@@ -91,7 +91,7 @@ This framework will allow you to change profile picture. you can change profile 
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "GTChageAndCropProfilePicture/GTChageAndCropProfilePicture/Classes/**/*.{swift}","GTChageAndCropProfilePicture/Protocols/GTChageAndCropProfilePicture/**/*.{swift}"
+  s.source_files  = "GTChageAndCropProfilePicture/GTChageAndCropProfilePicture/Classes/**/*.{swift}","GTChageAndCropProfilePicture/GTChageAndCropProfilePicture/Protocols/**/*.{swift}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
