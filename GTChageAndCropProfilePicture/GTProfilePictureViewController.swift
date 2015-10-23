@@ -20,7 +20,7 @@ public class GTProfilePictureViewController: NSObject,UINavigationControllerDele
     var imageCropMode:SMUImageCropMode = SMUImageCropMode.Circle
     
     
-    class func sharedInstance() -> GTProfilePictureViewController {
+    class public func sharedInstance() -> GTProfilePictureViewController {
         struct Static {
             static var onceToken : dispatch_once_t = 0
             static var instance : GTProfilePictureViewController? = nil
