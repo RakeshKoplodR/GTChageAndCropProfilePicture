@@ -99,7 +99,7 @@ public class GTProfilePictureViewController: NSObject,UINavigationControllerDele
             self.delegate.changeProfileImageCallBack(userInfo["image"]!)
             NSNotificationCenter.defaultCenter().removeObserver(self)
         }
-        self.calledViewController.navigationController!.popViewControllerAnimated(true)
+        self.calledViewController.dismissViewControllerAnimated(true, completion: nil)
     }
 
 
