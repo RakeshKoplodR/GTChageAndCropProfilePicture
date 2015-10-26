@@ -90,7 +90,7 @@ public class GTProfilePictureViewController: NSObject,UINavigationControllerDele
         let photo:UIImage = image
         let imageVC:GTImageCropViewController = GTImageCropViewController()
         imageVC.initWithImage(originalImage: photo, cropMode: imageCropMode)
-        self.calledViewController.navigationController?.pushViewController(imageVC, animated: true)
+        self.calledViewController.presentViewController(imageVC, animated: true, completion: nil)
     }
     
     func photoRecieved(notification: NSNotification){
