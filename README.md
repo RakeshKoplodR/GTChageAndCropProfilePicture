@@ -14,5 +14,5 @@ USAGE:
 
 4. That's all, You will Image object in callback.
     func changeProfileImageCallBack(image: UIImage) {
-        self.profilePic.image = image
+        
     }
